@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfScript: Inline Script</title>
+    <script>
+      //internal script
+      console.log("Bu benim ilk internal scriptim");
+      // burada genelde css cagirilir
+      //ilk önce head yüklenir sonra body yüklenir
+    </script>
+    <script src="./introduction.js"></script>
+    <script src="./helloWorld.js"></script>
+  </head>
+  <body>
+    <button onclick="alert('Welcome to 30DaysOfJavascript')">Click Me</button>
+    <script>
+      //external script
+      console.log("Bu benim ilk external scriptim");
+    </script>
+  </body>
+</html>
